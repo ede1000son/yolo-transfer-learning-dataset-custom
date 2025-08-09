@@ -1,0 +1,12 @@
+# Caminho para a pasta raiz do dataset (opcional, mas bom para clareza)
+path: dataset/ 
+
+# Caminhos para as imagens de treino e validação (relativos ao 'path' ou completos)
+train: train/images
+val: val/images
+
+# Nomes das classes (deve corresponder ao seu arquivo classes.txt)
+names:
+  0: capacete
+  1: extintor
+  # Adicione mais classes se tiver
